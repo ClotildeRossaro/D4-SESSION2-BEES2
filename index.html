@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pollinisation</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon-01.ico">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<span>Pollinisation </span>
+			<h1>Les étapes !</h1>
+			<nav>
+
+			</nav>
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="abeille-01.jpg" alt="abeille" />
+						<div class="preview">
+							<img src="images/abeille-01.jpg" alt="abeille" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Tiens toi pret</span> C'est parti!</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/etape1-01.jpg" alt="etape1" />
+						<div class="preview">
+						<!--	<img src="images/ipad-content-preview.png" alt="iPad Mini app preview" /> -->
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Etape 1</span> L'abeille est attirée par la fleur</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/etape2-01.jpg" alt="etape2" />
+						<div class="preview">
+							<!-- <img src="images/macbook-content-preview.jpg" alt="MacBook app preview" /> -->
+							<div class="zoomer__area zoomer__area--size-3"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Etape 2</span> L'abeille se pose sur la fleur</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/etape3-01.jpg" alt="recolte de pollen" />
+						<div class="preview">
+						<img src="images/etape3-01.jpg" alt="recolte de pollen" />
+							<div class="zoomer__area zoomer__area--size-5"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Etape 3</span> Récolte de pollen</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/etape4-01.jpg" alt="autre fleur" />
+						<div class="preview rounded">
+							<img src="images/etape4-01.jpg" alt="autre fleur" />
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Etape 4</span> Le départ vers une autre fleur</h2>
+			</div>
+			<div class="slide" data-content="content-6">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/etape5-01.jpg" alt="pollinisation" />
+						<div class="preview">
+							<img src="images/etape5-01.jpg" alt="pollinisation" />
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Etape 5</span> Déposer le pollen</h2>
+			</div>
+			<div class="slide" data-content="content-7">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/video-01.jpg" alt="pollinisation" />
+						<div class="preview">
+							<img src="images/video-01.jpg" alt="pollinisation" />
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Video</span> La naissance d'une fleur!</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				 <img src="images/pollinisation.gif" alt="This is my animated image" height="400" width="400">
+			<!--	<img class="content__item-img rounded-right" src="images/pollinisatio.gif" alt="pollinisation gif" /> -->
+				<div class="content__item-inner">
+					<h2>La pollinisation</h2>
+					<h3>Découvre le processus de pollinisation avec moi !</h3>
+					<p>Les abeilles sont très importantes pour le bon fonctionnement de la planète, c’est pourquoi il faut se renseigner sur nous !
+Ici tu apprendras le processus de pollinisation en quatre étapes très simples !</p>
+					<p><a href="https://fr.wikipedia.org/wiki/Pollinisation">En savoir plus ! &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="images/etape1-01.jpg" alt="attraction" />
+				<div class="content__item-inner">
+					<h2>Etape 1</h2>
+					<h3>L'abeille est attirée par la fleur</h3>
+					<p>Toute abeille a pour but de récupperer du pollen  afin de se nourrire. Elle a donc comme mission une fois sortie de la ruche, d'aller sur differentes fleurs afin de recolter le nectar.</p>
+
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/etape2-01.jpg" alt="pose" />
+				<div class="content__item-inner">
+					<h2>Etape 2</h2>
+					<h3>L'abeille se pose sur la fleur</h3>
+					<p>Attirée par le pollen de la fleur, l'abeille se pose dessus pour commencer sa récolte.</p>
+
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/etape3-01.jpg" alt="recupperation" />
+				<div class="content__item-inner">
+					<h2>Etape 3</h2>
+					<h3>Récolte de pollen</h3>
+					<p>En récoltant le nectar de la fleur, des particules de pollen libérés par la fleur se collent aux poils de l'abeille.</p>
+
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<img class="content__item-img rounded-right" src="images/etape4-01.jpg" alt="autre fleur" />
+				<div class="content__item-inner">
+					<h2>Etape 4</h2>
+					<h3>Le départ vers une autre fleur</h3>
+					<p>Une fois l'abeille rassasiée de la premiere fleur, elle s'envolle vers une autre fleur.</p>
+
+				</div>
+			</div>
+			<div class="content__item" id="content-6">
+				<img class="content__item-img rounded-right" src="images/etape5-01.jpg" alt="Pollinisation" />
+				<div class="content__item-inner">
+					<h2>Etape 5</h2>
+					<h3>Déposer le pollen</h3>
+					<p>En se posant sur la nouvelle fleur, l'abeille dépose le pollen récupéré par la premiere fleur. Ainsi commence le procéssus de fécondation de cette nouvelle fleur.</p>
+
+				</div>
+			</div>
+			<div class="content__item" id="content-7">
+<!--	<img class="content__item-img rounded-right" src="images/etape5-01.jpg" alt="Pollinisation" /> -->
+				<div class="content__item-inner">
+				 <!-- <h2>Etape 5</h2>
+					<h3>Déposer le pollen</h3>
+					<p>En se posant sur la nouvelle fleur, l'abeille dépose le pollen récupéré par la premiere fleur. Ainsi commence le procéssus de fécondation de cette nouvelle fleur.</p>-->
+					<video controls width="1250">
+							<source src="/medias/fleur.mp4"
+											type="video/mp4">
+	
+					</video>
+				</div>
+			</div>
+
+
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
